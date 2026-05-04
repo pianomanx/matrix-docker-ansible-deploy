@@ -39,7 +39,6 @@ matrix_registration_container_image: "{{ matrix_registration_container_image_reg
 matrix_registration_container_image_registry_prefix: "{{ 'localhost/' if matrix_registration_container_image_self_build else matrix_registration_container_image_registry_prefix_upstream }}"
 matrix_registration_container_image_registry_prefix_upstream: "{{ matrix_registration_container_image_registry_prefix_upstream_default }}"
 matrix_registration_container_image_registry_prefix_upstream_default: "docker.io/"
-matrix_registration_container_image_force_pull: "{{ matrix_registration_container_image.endswith(':latest') }}"
 
 matrix_registration_container_network: ""
 
