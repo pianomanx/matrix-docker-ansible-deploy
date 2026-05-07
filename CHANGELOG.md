@@ -4,7 +4,7 @@
 
 Thanks to [Jason Volk](https://github.com/jevolk), the playbook now supports the [Tuwunel](./docs/configuring-playbook-tuwunel.md) homeserver as an optional alternative to Synapse.
 
-Tuwunel is a fork of [conduwuit](./docs/configuring-playbook-conduwuit.md) written in Rust. Like [Continuwuity](./docs/configuring-playbook-continuwuity.md), it continues development on top of conduwuit's database format.
+Tuwunel is a fork of [conduwuit](./docs/configuring-playbook-conduwuit.md) written in Rust. The former conduwuit maintainer [endorses Tuwunel as conduwuit's successor](https://github.com/spantaleev/matrix-docker-ansible-deploy/pull/5200#issuecomment-4396211185). Like [Continuwuity](./docs/configuring-playbook-continuwuity.md), Tuwunel continues development on top of conduwuit's database format.
 
 Existing installations do **not** need to be updated. **Synapse is still the default homeserver implementation** installed by the playbook.
 
